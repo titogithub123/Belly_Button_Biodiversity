@@ -1,1 +1,10 @@
 /* my css style sheet */
+
+/* Add an image to the jumbotron. */
+.jumbotron {
+    color: green;
+    background-image: url("../images/belly_button_3.jpg");
+    background-size: 100% 100%;
+    text-align: center;
+  }
+ 

@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -9,7 +9,7 @@
 
   <!-- bootstrap link -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  
+
   <!-- link to my css sheet -->
   <link rel="stylesheet" href="./Static/css/style.css">
 
@@ -19,17 +19,21 @@
   <!-- start of Dashboard -->
   <div class="container">
 
-     <!-- nav bar -->
+    <!-- start of nav bar -->
+    <nav class="navbar navbar-expand-lg navabar-dark bg-dark">
+      <a class="navbar-brand" href="https://github.com/titogithub123/Belly_Button_Biodiversity">Link to GitHub
+        Repository</a>
+    </nav>
 
-    
-    <!-- jumbotron --> 
+
+    <!-- jumbotron -->
     <section class="jumbotron_section">
       <div class="row">
         <div class="col-md-12 jumbotron text-center">
           <h1>Belly Button Biodiversity Dashboard</h1>
-          <p>Use the interactive charts below to explore the dataset</p>
-
+          <p>Use the interactive charts below to explore the dataset.</p>
           <!-- Add more information about the project as a paragraph on the page-->
+          <p>In this interactive dashboard volunteers will be able to identify the top 10 bacterial species in their belly buttons.</p>
         </div>
       </div>
     </section>
@@ -54,7 +58,7 @@
               <h3 class="panel-title">Demographic Info</h3>
             </div>
             <div id="sample-metadata" class="panel-body"></div>
-          </div>  
+          </div>
         </div>
 
         <!-- bar chart -->
@@ -69,15 +73,15 @@
       </div>
     </section>
 
-      <!--bubble chart-->
-      <section class="bubble_chart">
-        <div class="row">
-          <div class="col-md-12">
-            <div id="bubble"></div>
-          </div>
+    <!--bubble chart-->
+    <section class="bubble_chart">
+      <div class="row">
+        <div class="col-md-12">
+          <div id="bubble"></div>
         </div>
-      </section>
       </div>
+    </section>
+  </div>
 
   <!-- links to js and d3 -->
   <!-- link to d3 -->
